@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.main-container{
+  border: 2px solid black;
+  padding: 60px;
+  border-radius: 20px;
+}
+.line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px; /* spacing between dots */
+  width: 1.6px;
+  background: black;
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%; /* makes it a circle */
+}
+.line .dot:first-child {
+  height: 0px;
+  width: 0px;
+}
+.line .dot:last-child {
+  height: 0px;
+  width: 0px;
+}
+.grey{
+  color: grey;
+}
+.bold{
+  font-weight: bold;
+}
+.header{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.header h1{
+  margin-bottom: 20px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.container p{
+  padding-top: 40px;
+}
